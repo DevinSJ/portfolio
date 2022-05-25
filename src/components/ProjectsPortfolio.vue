@@ -1,6 +1,6 @@
 <template>
   <section id="work" class="portfolio-mf sect-pt4 route">
-    <div class="container box-shadow-full">
+    <div class="container box-shadow-full" data-aos="fade-up">
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">

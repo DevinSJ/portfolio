@@ -1,6 +1,6 @@
 <template>
   <section id="aboutme" class="about-mf sect-pt4">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">

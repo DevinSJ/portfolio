@@ -121,7 +121,6 @@ export default {
         let navbar = document.querySelector("#navbar");
         let buttonBackToTop = document.querySelector(".button-top");
 
-        console.log(currentScroll);
         if (currentScroll > 200) {
           navbar.classList.add("nav-scrolled");
           buttonBackToTop.classList.add("show-button");
@@ -246,29 +245,29 @@ export default {
     margin-left: 10%;
     padding-bottom: 5px;
   }
-}
 
-.nav-link:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0px;
-  left: 0;
-  width: 0;
-  background-color: #ffffff;
-  visibility: hidden !important;
-  transition: all 0.3s ease-in-out 0s;
-}
+  .nav-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    background-color: #ffffff;
+    visibility: hidden !important;
+    transition: all 0.3s ease-in-out 0s;
+  }
 
-.nav-link {
-  position: relative;
-}
+  .nav-link {
+    position: relative;
+  }
 
-.nav-link:hover::before,
-.nav-item .active:before {
-  visibility: visible !important;
-  width: 80%;
+  .nav-link:hover::before,
+  .nav-item .active:before {
+    visibility: visible !important;
+    width: 80%;
+  }
 }
 
 @media (max-width: 991px) {

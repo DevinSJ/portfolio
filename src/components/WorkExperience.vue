@@ -1,6 +1,6 @@
 <template>
   <section id="experience" class="about-mf sect-pt4 route">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
@@ -9,7 +9,7 @@
                   Experience
                 </h3>
                 <p class="subtitle-a">
-                  My laboral experience.
+                  My studies and laboral experience.
                 </p>
                 <div class="line-mf"></div>
               </div>
@@ -88,7 +88,7 @@ export default {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #ffffff;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -107,13 +107,9 @@ export default {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: #000000;
 }
 
-.subtitle-a {
-  text-decoration: none;
-  color: #4e4e4e;
-}
 
 .line-mf {
   width: 40px;
@@ -129,7 +125,7 @@ export default {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #365F91;
   position: relative;
   
 }
@@ -140,13 +136,13 @@ export default {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #365F91;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #ffffff;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -173,7 +169,7 @@ export default {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: #ffffff;
   border: 2px solid #0078ff;
 }
 

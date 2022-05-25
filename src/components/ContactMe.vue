@@ -13,13 +13,13 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="title-box-2">
-                    <h5 class="title-left">Send Message</h5>
+                    <h5 class="title-left" data-aos="fade-up">Send Message</h5>
                   </div>
-                  <div>
+                  <div data-aos="zoom-in">
                     <form action="" class="php-email-form">
                       <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
+                        <div class="col-md-12 mb-3" >
+                          <div class="form-group" >
                             <input
                               type="text"
                               name="name"
@@ -82,9 +82,9 @@
                 </div>
                 <div class="col-md-6">
                   <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">Get in Touch</h5>
+                    <h5 class="title-left" data-aos="fade-up">Get in Touch</h5>
                   </div>
-                  <div class="more-info">
+                  <div class="more-info" data-aos="zoom-in">
                     <p class="lead">
                       In case you require of additional information, please do
                       not hesitate to contact me at my email!
@@ -99,7 +99,7 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="socials">
+                  <div class="socials" data-aos="zoom-in">
                     <ul>
                       <li>
                         <a href="https://github.com/DevinSJ" title="Link to GitHub"
@@ -233,7 +233,7 @@ export default {
 
 .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #ffffff;
   background: #ed3c0d;
   text-align: center;
   padding: 15px;
@@ -341,7 +341,7 @@ export default {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #365F91;
   color: #ffffff;
   transition: all 500ms ease;
 }
